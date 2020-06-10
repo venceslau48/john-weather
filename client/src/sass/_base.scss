@@ -36,6 +36,10 @@ body {
     background-image: linear-gradient(to right top, var(--color-primary-dark), var(--color-primary));
     height: 100vh;
     position: relative;
+
+    @media only screen and(max-width: 37.5em) {
+        height: 100%;
+    }
 }
 
 .container {
@@ -53,6 +57,12 @@ body {
 
     @media only screen and(max-width: 37.5em) {
         width: 95%;
+        height: 100%;
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 2rem auto 6rem;
     }
 }
 
@@ -66,6 +76,13 @@ footer {
     align-items: center;
     opacity: 0.8;
 
+    @media only screen and(max-width: 37.5em) {
+        position: relative;
+        bottom: 2rem;
+        left: 0;
+        transform: none;
+    }
+
     span {
         font-size: 2rem;
         transform: translateX(10rem);
@@ -75,7 +92,7 @@ footer {
         }
 
         @media only screen and(max-width: 37.5em) {
-            transform: translateX(0);
+            transform: translateX(3.5rem);
         }
     }
 
