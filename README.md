@@ -6,3 +6,5 @@
 
 Weather App that shows the current temps.
 Used with React and SCSS.
+
+Developed by John Vences - copyright @ 2020
